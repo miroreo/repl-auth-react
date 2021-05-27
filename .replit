@@ -1,0 +1,2 @@
+run = "nix-shell /opt/nixproxy.nix --argstr repldir $PWD --command 'npm run start'"
+onBoot="git config user.name RoBlockHead && git config user.email 15642007+RoBlockHead@users.noreply.github.com"
